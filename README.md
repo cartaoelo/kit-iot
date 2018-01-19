@@ -108,9 +108,8 @@ Existem alguns comandos suportados:
 
 ```sh
 pi@raspberrypi:~ $ eclet state
+Factory 
 ```
-
-**Factory** 
 
 **eclet  personalize** : em caso de sucesso este comando não retorna nada, sua função é configurar todos os slots (0-16) para a chave privada. 
 
@@ -119,7 +118,7 @@ O slot 8 é reservado para uso futuro.
 ```sh
 pi@raspberrypi:~ $ eclet personalize 
 pi@raspberrypi:~ $ eclet state 
-**Personalized**
+Personalized
 ```
 
 **eclet  random** : Até que você tenha personalizado o seu dispositivo, o gerador de número aleatório irá retornar um número com padrões contendo FF e 00. 
