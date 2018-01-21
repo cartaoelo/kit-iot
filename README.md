@@ -68,7 +68,7 @@ Listen for card read event ...
 
 **INTRODUÇÃO**
 
-Este documento explica como utilizar o driver para Cryptotronix EClet contido no chip da Atmel ATECC108 em uma raspberry pi.
+Este documento explica como utilizar o software Cryptotronix EClet para configurar o chip Atmel ATECC508A em uma raspberry pi.
 
 **ARQUIVOS NECESSÁRIOS**
 
@@ -175,4 +175,4 @@ As opções podem ser visualizadas utilizando o comando –-help .
 
 # PLACA ELO IOT
 
-![ Placa ELO + Raspberry Zero W ](/imgs/1Capture.PNG)
+![ Placa ELO + Raspberry Zero W ](/imgs/kit_ELO1.PNG)
