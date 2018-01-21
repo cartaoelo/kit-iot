@@ -175,4 +175,4 @@ As opções podem ser visualizadas utilizando o comando –-help .
 
 # PLACA ELO IOT
 
-![ Placa ELO + Raspberry Zero W ](/imgs/kit_ELO1.PNG)
+![ Placa ELO + Raspberry Zero W ](/images/kit_ELO1.PNG)
