@@ -49,6 +49,7 @@ pi@raspberrypi:~ $ i2cdetect -y 1
 O endereço i2c do PN532 é 0x24, o outro endereço exibido no log do comando é o chip de autenticação ATECC508A também instalado no kit-iot da ELO.
 
 **EXEMPLO**
+
 Depois de clonar o diretório do projeto, basta rodar o código exemplo.
 ```sh
 pi@raspberrypi:~ $ node example.js
@@ -152,7 +153,7 @@ pi@raspberrypi:~/Eclet $ eclet sign -f ChangeLog 5D1BD52DD2294CA1518E2520CFBF518
 
 **eclet  verify** : Verifica a assinatura ECDSA usada no dispositivo. 
 
-Se estiver correta, nada acontecerá, caso contrário uma mensagem de falha na verificação acontecerá.
+Se estiver correta, nada acontecerá, caso contrário é reportada uma mensagem de falha na verificação.
 
 ```sh
 pi@raspberrypi:~/Eclet $ eclet verify -f ChangeLog -–signature 5D1BD52DD2294CA1518E2520CFBF518AD6DD48AA57978BCAF91919E51E5FE3CA2B1EFC8427AC7EC499DF340B197319545FCB2A7F87D981F6712365CF3E6872B3 -–public-key 04DD24F3770BD11A6A465F37D1D6CEEA58F8B8E1B85A5D3D665A0382BCBCDDC81321458F8A4FE5777BA0D508780A2476A23434B89BE2BBD5B8CF574348A15F1982
@@ -160,7 +161,7 @@ pi@raspberrypi:~/Eclet $ eclet verify -f ChangeLog -–signature 5D1BD52DD2294CA
 
 **eclet  offline-verify-sign** : Verifica a assinatura ECDSA usada, sem a necessidade do dispositivo. 
 
-Se estiver correta, nada acontecerá, caso contrário uma mensagem de falha na verificação acontecerá.
+Se estiver correta, nada acontecerá, caso contrário é reportada uma mensagem de falha na verificação.
 
 ```sh
 pi@raspberrypi:~/Eclet $ eclet offline-verify-sign -f ChangeLog -–signature 5D1BD52DD2294CA1518E2520CFBF518AD6DD48AA57978BCAF91919E51E5FE3CA2B1EFC8427AC7EC499DF340B197319545FCB2A7F87D981F6712365CF3E6872B3 -–public-key 04DD24F3770BD11A6A465F37D1D6CEEA58F8B8E1B85A5D3D665A0382BCBCDDC81321458F8A4FE5777BA0D508780A2476A23434B89BE2BBD5B8CF574348A15F1982
