@@ -46,8 +46,6 @@ pi@raspberrypi:~ $ i2cdetect -y 1
 70: -- -- -- -- -- -- -- -- 
 ```
 
-**DETECTANDO O PN532**
-
 O endereço i2c do PN532 é 0x24, o outro endereço exibido no log do comando é o chip de autenticação ATECC508A também instalado no kit-iot da ELO.
 
 **EXEMPLO**
