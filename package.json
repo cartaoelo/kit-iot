@@ -1,0 +1,31 @@
+{
+  "name": "kit-iot",
+  "version": "1.0.0",
+  "description": "Kit ELO IoT",
+  "main": "example.js",
+  "dependencies": {
+    "i2c": "^0.2.3",
+    "onoff": "^1.1.9",
+    "pn532": "cartaoelo/node-pn532#master",
+    "serialport": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cartaoelo/kit-iot.git"
+  },
+  "keywords": [
+    "ELO",
+    "IOT",
+    "NFC"
+  ],
+  "author": "ELO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cartaoelo/kit-iot/issues"
+  },
+  "homepage": "https://github.com/cartaoelo/kit-iot#readme"
+}
