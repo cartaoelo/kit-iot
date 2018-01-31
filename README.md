@@ -26,7 +26,7 @@ pi@raspberrypi:~ $ git clone https://github.com/cartaoelo/kit-iot.git
 O nodejs já vem instalado na raspberry em algumas imagens disponíveis no site do fabricante. Caso a versão do sistema operacional não possua o software instalado, deverá ser feita a instalação. Depois de instalar o nodejs, devemos instalar os pacotes npm necessários para que o exemplo funcione.
 ```sh
 pi@raspberrypi:~ $ sudo apt-get install nodejs
-pi@raspberrypi:~ $ npm install --save
+pi@raspberrypi:~/kit-iot $ npm install --save
 ```
 
 **DETECTANDO O PN532**
@@ -53,7 +53,7 @@ O endereço i2c do PN532 é 0x24, o outro endereço exibido no log do comando é
 
 Depois de clonar o diretório do projeto, basta rodar o código exemplo.
 ```sh
-pi@raspberrypi:~ $ node example.js
+pi@raspberrypi:~/kit-iot $ node example.js
 READY
 Firmware:  { IC: 50, Ver: 1, Rev: 6, Support: 7 }
 Listen for card read event ...
