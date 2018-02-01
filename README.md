@@ -98,11 +98,11 @@ pi@raspberrypi:~ $ sudo make install
 
 **CONFIGURAÇÔES INICIAIS**
 
-Inicialmente é necessário executar ` /dev/i2c* ` para o acesso. 
+Você tera que ter acesso ao barramento i2c da Raspberry ` /dev/i2c* `. 
 
 É possível mudar isto adicionando seu usuário para o grupo I2C utilizando: `sudo usermod -aG i2c user ` ou ` sudo chmod o+rw /dev/i2c* ` .
 
-Existem alguns comandos suportados:
+Lista de comandos:
 
 **eclet state** : verifica se está em estado de fábrica.
 
