@@ -176,3 +176,9 @@ pi@raspberrypi:~/Eclet $ eclet offline-verify-sign -f ChangeLog -–signature 5D
 **OPÇÕES**
 
 As opções podem ser visualizadas utilizando o comando –-help .
+
+**LICENÇA**
+
+Este produto é _**open source**_ e distribuído sob licença GPLv3!
+
+EClet foi escrito por Cryptotronix, e distribuído sob GPLv3.
