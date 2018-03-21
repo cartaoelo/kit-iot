@@ -173,7 +173,7 @@ pi@raspberrypi:~/Eclet $ eclet offline-verify-sign -f ChangeLog -–signature 5D
 As opções podem ser visualizadas utilizando o comando –-help .
 
 
-# PLACA ELO IOT
+# KIT ELO IOT
 
 ![ Placa ELO + Raspberry Zero W ](/images/kit_ELO1.PNG)
 ![ Placa ELO schematic ](/images/kit_ELO_SCH.png)
