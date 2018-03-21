@@ -179,6 +179,6 @@ As opções podem ser visualizadas utilizando o comando –-help .
 
 **LICENÇA**
 
-Este produto é _**open source**_ e distribuído sob licença GPLv3!
+Este produto é _**open source**_ de software distribuído sob a licença GPLv3 e hardware sob a licença CERN OHL v1.2!
 
-EClet foi escrito por Cryptotronix, e distribuído sob GPLv3.
+EClet foi escrito por Cryptotronix, e distribuído sob licença GPLv3.
