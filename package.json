@@ -6,7 +6,7 @@
   "dependencies": {
     "i2c": "^0.2.3",
     "onoff": "^1.1.9",
-    "pn532": "cartaoelo/node-pn532#master",
+    "pn532": "https://github.com/cartaoelo/node-pn532#master",
     "serialport": "^5.0.0"
   },
   "devDependencies": {},
